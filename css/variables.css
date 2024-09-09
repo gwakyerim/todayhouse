@@ -1,0 +1,40 @@
+/* Font Icon CDN */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+
+/* Font Family CDN */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+@font-face {
+    font-family: 'NEXON Lv2 Gothic';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv2 Gothic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+    
+:root {
+    /* Font Family */
+    --primary-kr: "Noto Sans KR", sans-serif;
+    --primary-en: "Roboto", sans-serif;
+    --logo-en: "Bree Serif", serif;
+    --secondary-kr: 'NEXON Lv2 Gothic';
+    
+    /* Text color */
+    --dark-black: #333333;
+    --dark-gray: #777777;
+    --light-gray: #d3d3d3;
+    --gloudy-gray: #eeeeee;
+    
+    /* Object Color */
+    --bluegrey: #74838C;
+    --lightbluegrey: #B8BEBF;
+    --cloudy: #D3D3D3;
+    --red: #FF0000;
+    --blue: #0047FF;
+
+    /* For Big SIze Mobile & Tablet Device */
+    --silde-basis: 375px;
+}

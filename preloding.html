@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>오늘의집 - preloading</title>
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <!-- Custom CSS & JS -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container preloading">
+        <div class="preloading-inner" onclick="location.href='../html/main.html'">
+            <div class="heading-preloading">
+                <h2 class="logo">오늘의집</h2>
+                <p class="slogan">오직 나를 위한 공간</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        setTimeout("location.href='../html/main.html'",3000)
+    </script>
+</body>
+</html>
