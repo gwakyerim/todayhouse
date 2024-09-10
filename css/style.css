@@ -86,6 +86,9 @@ input:focus::placeholder {
 .gnb a .bi {
     font-size: 25px;
 }
+.gnb a b {
+    margin: 0 auto;
+}
 .gnb a:nth-child(1) .bi,
 .gnb a:nth-child(4) .bi {
     font-size: 28px;
